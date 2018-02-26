@@ -4,6 +4,7 @@
 
 .row-wrapper {
   width: 100vw;
+  margin: 35px 0;
 }
 
 .content-box {
@@ -15,21 +16,46 @@
   text-align: center;
   width: 50%;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .content-box .info-box {
   float: left;
-
 }
+
+.content-box .info-title {
+  margin: 10px 0;
+}
+
+/* *************** first section structure *************** */
 
 .content-box.where-lessons .info-box {
   width: 48%;
   margin: 0 1%;
 }
 
+/* *************** second section structure *************** */
+
+.content-box.how-to .info-box {
+  width: 31.333%;
+  margin: 0 1%;
+}
+
+/* *************** third section structure *************** */
+
+.content-box.why .info-box {
+  float: none;
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: 1px solid grey;
+  margin-top: 30px;
+}
 
 
-/* ********************************************* */
+
+
+
+
 
 /* *************** generale feature *************** */
 
@@ -47,6 +73,12 @@
 
 .info-box * {
   text-align: center;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
