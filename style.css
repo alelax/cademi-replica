@@ -1,9 +1,11 @@
 
-
 /* *************** landing structure *************** */
 
 .row-wrapper {
-  width: 100vw;
+
+  width: 100%;
+  
+  max-width: 100%;
   margin: 35px 0;
 }
 
@@ -34,6 +36,10 @@
   margin: 0 1%;
 }
 
+#screen {
+  width: 320px;
+}
+
 /* *************** second section structure *************** */
 
 .content-box.how-to .info-box {
@@ -51,6 +57,21 @@
   margin-top: 30px;
 }
 
+.info-box .test {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+  background-color: #428BCA;
+}
+.content-box.why img {
+  width: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
 
