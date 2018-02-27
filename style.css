@@ -4,7 +4,7 @@
 .row-wrapper {
 
   width: 100%;
-  
+
   max-width: 100%;
   margin: 35px 0;
 }
@@ -36,9 +36,6 @@
   margin: 0 1%;
 }
 
-#screen {
-  width: 320px;
-}
 
 /* *************** second section structure *************** */
 
@@ -66,7 +63,7 @@
   background-color: #428BCA;
 }
 .content-box.why img {
-  width: 120px;
+  height: 120px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -87,7 +84,7 @@
 }
 
 .info-box img {
-  width: 200px;
+  height:  200px;
   display: block;
   margin: 0 auto;
 }
