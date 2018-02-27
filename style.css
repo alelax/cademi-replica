@@ -2,9 +2,7 @@
 /* *************** landing structure *************** */
 
 .row-wrapper {
-
   width: 100%;
-
   max-width: 100%;
   margin: 35px 0;
 }
@@ -31,7 +29,7 @@
 
 /* *************** first section structure *************** */
 
-.content-box.where-lessons .info-box {
+.where-lessons .info-box {
   width: 48%;
   margin: 0 1%;
 }
@@ -39,14 +37,14 @@
 
 /* *************** second section structure *************** */
 
-.content-box.how-to .info-box {
+.how-to .info-box {
   width: 31.333%;
   margin: 0 1%;
 }
 
 /* *************** third section structure *************** */
 
-.content-box.why .info-box {
+.why .info-box {
   float: none;
   width: 70%;
   margin: 0 auto;
@@ -70,9 +68,64 @@
   transform: translate(-50%, -50%);
 }
 
+/* ******************************************* */
+/* *************** media queries *************** */
+/* ******************************************* */
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
 
+.content-box {
+  width: 100%;
+}
 
+.where-lessons .info-box {
+  width: 100%;
+}
+
+.how-to .info-box {
+  width: 100%;
+}
+
+.info-box img {
+  height:  150px;
+}
+
+}
+
+ @media screen and (min-width: 480px) and (max-width: 800px) {
+
+.content-box {
+  width: 100%;
+}
+
+.content-box.how-to {
+  height: 85vh;
+  position: relative;
+}
+
+.where-lessons .info-box {
+  width: 100%;
+}
+
+.how-to .info-box {
+  box-sizing: border-box;
+  width: 48%;
+  padding: 0 1%;
+}
+
+#flow-down {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+}
+
+/* ******************************************* */
+/* ******************************************* */
+/* ******************************************* */
 
 
 /* *************** generale feature *************** */
