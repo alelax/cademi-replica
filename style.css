@@ -3,7 +3,6 @@
 
 .how-to img {
   height: 100px;
-
 }
 
 
@@ -17,6 +16,7 @@
   position: relative;
   background-color: #428BCA;
 }
+
 .why img {
   height: 80px;
   position: absolute;
@@ -100,10 +100,78 @@ p {
 /* *************** media queries *************** */
 /* ******************************************* */
 
+ @media screen and (min-width: 750px) and (max-width: 1150px) {
 
-@media screen and (max-width: 480px) {
 
-.content-box {
+section.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+section.container.how-to {
+    height: 95vh;
+}
+
+.how-to .col-4 {
+  width: calc( 100% / 2 );
+  position: relative;
+}
+
+#flow-down {
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.where-lessons .col-4 {
+  width: 100%;
+}
+
+.where-lessons .col-offset-2 {
+  margin-left: 0;
+}
+/* .info-box .test {
+  width: 150px;
+  height: 150px;
+
+}
+
+.content-box.why img {
+  height: 80px;
+} */
+
+
+}
+
+@media screen and (max-width: 750px) {
+
+section.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.how-to .col-4 {
+  width: 100%;
+}
+
+.where-lessons .col-4 {
+  width: 100%;
+}
+
+.where-lessons .col-offset-2 {
+  margin-left: 0;
+}
+
+
+.where-lessons img {
+  height: 150px;
+}
+
+
+
+
+/* .content-box {
   width: 100%;
 }
 
@@ -128,48 +196,7 @@ p {
 .content-box.why img {
   height: 80px;
 }
-
-
-}
-
- @media screen and (min-width: 480px) and (max-width: 800px) {
-
-.content-box {
-  width: 100%;
-}
-
-.content-box.how-to {
-  height: 90vh;
-  position: relative;
-}
-
-.where-lessons .info-box {
-  width: 100%;
-}
-
-.how-to .info-box {
-  box-sizing: border-box;
-  width: 48%;
-  padding: 0 1%;
-}
-
-#flow-down {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.info-box .test {
-  width: 150px;
-  height: 150px;
-
-}
-
-.content-box.why img {
-  height: 80px;
-}
-
+ */
 
 }
 
